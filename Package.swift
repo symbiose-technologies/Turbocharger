@@ -19,7 +19,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/symbiose-technologies/Engine", from: "1.5.1"),
+        .package(url: "https://github.com/symbiose-technologies/Engine", branch: "symbiose-1.7.0"),
     ],
     targets: [
         .target(
